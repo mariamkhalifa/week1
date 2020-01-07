@@ -1,6 +1,9 @@
 .planet {
     //clear: both;
     margin-bottom: 30px;
+    border-bottom: thin solid rgb(124, 114, 114);
+
+    padding: 0 0 20px;
 
     ::after {
         content: "";
@@ -11,4 +14,8 @@
     .planet-img { width: 150px; float: left; }
     .planet-name { display: inline-block; margin: 0 0 8px; }
     .planet-description { margin: 0; }
+}
+
+main .planet:last-of-type {
+    border-bottom: none;
 }
